@@ -10,12 +10,14 @@ button{
 
 body{
     background-color: hsl(47, 88%, 63%);
+    margin: auto;
+    width: 100%;
 }
 
 main{
     background-color: hsl(0, 0%, 100%);
-    max-width: 370px;
-    height: 500px;
+    width: 18rem;
+    height: 430px;
     padding: 22px;
     border-radius: 10px;
     border: solid 1px black;
@@ -77,6 +79,7 @@ span {
 .title{
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
+    font-size: 12px;
     font-weight: 800;
     font-style: normal;
     color: hsl(0, 0%, 7%);
